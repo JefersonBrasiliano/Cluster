@@ -2,6 +2,7 @@
 
 Projeto desenvolvido a partir da disciplina Arquitetura de Alto Desempenho para Banco de Dados (UNICAMP), ministrada pelo Prof. José Luís Zem.
 <p></p>
+
 🔹 Visão Geral
 Este projeto implementa um cluster de computadores com:
 
@@ -14,6 +15,10 @@ Serviços adicionais no Slave: NFS (compartilhamento de arquivos) e NIS (autenti
 Nós de computação (NC01, NC02, NC03) dedicados apenas a consultas (SELECT).
 <p></p>
 🔹 Arquitetura
+<p></p>
+
+<img width="1044" height="517" alt="image" src="https://github.com/user-attachments/assets/684e9e67-a395-4d6a-8f04-8393387a59d0" />
+
 <p></p>
 🖥️ NA02 (Master)
 
@@ -43,8 +48,7 @@ MySQL/MariaDB instalado.
 
 Pacotes: mdadm, nfs-kernel-server, nis.
 <p></p>
-🔹 Configuração das VMs
-Cada VM deve ser criada com:
+🔹 Configuração das VMs:
 
 Memória: 1024 MB.
 
@@ -58,9 +62,3 @@ NC01, NC02, NC03: 1 disco para SO.
 
 Rede: Adaptador interno (mesma rede).
 <p></p>
-🔹 Scripts de Configuração
-Os scripts estão na pasta scripts/:
-
-na01-slave.sh → Configura RAID, MySQL Slave, NFS e NIS.
-
-na02-master.sh → Configura disco do banco e MySQL Master.
