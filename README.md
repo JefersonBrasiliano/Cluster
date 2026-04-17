@@ -1,6 +1,6 @@
-📘 Cluster com Replicação de Banco de Dados e RAID.
-<p></p>
-Este projeto foi desenvolvido com base nos conhecimentos adquiridos na disciplina **Arquitetura de Alto Desempenho para Banco de Dados**, ministrada pelo Prof. José Luís Zem.
+📘 Cluster com Replicação de Banco de Dados e RAID
+
+Projeto desenvolvido a partir da disciplina Arquitetura de Alto Desempenho para Banco de Dados (UNICAMP), ministrada pelo Prof. José Luís Zem.
 <p></p>
 🔹 Visão Geral
 Este projeto implementa um cluster de computadores com:
